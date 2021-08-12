@@ -1,0 +1,209 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Red Hat Display';
+  border: none;
+}
+
+body {
+  background: url("/images/pattern-background-desktop.svg") no-repeat;
+  background-color: var(--pale-blue);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  width: 28rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: -5px 25px 45px #c5c6c9;
+          box-shadow: -5px 25px 45px #c5c6c9;
+}
+
+.card > img {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title, .card-text {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.card-title {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: var(--dark-blue);
+}
+
+.card-text {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 1.1rem;
+  color: var(--desaturated-blue);
+  line-height: 1.9rem;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.4rem;
+  margin-bottom: 2.6rem;
+  border-radius: 1rem;
+  margin: 1.2rem;
+  background-color: var(--very-pale-blue);
+}
+
+.banner-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  text-align: start;
+  line-height: 1.9rem;
+}
+
+.banner-text h3 {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: var(--dark-blue);
+}
+
+.banner-text p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--desaturated-blue);
+}
+
+.banner img {
+  margin: 0 1rem 0 0;
+}
+
+.logo-plan {
+  width: 3.5rem;
+  height: 3.6rem;
+}
+
+.banner button {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.banner button:hover {
+  color: var(--bright-blue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.proced-payment {
+  background-color: var(--bright-blue);
+  color: white;
+  height: 3.6rem;
+  width: 90%;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1.1rem;
+  -webkit-box-shadow: 5px 5px 15px #acadaf;
+          box-shadow: 5px 5px 15px #acadaf;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.proced-payment:hover {
+  background-color: var(--desaturated-blue);
+}
+
+.cancel-payment {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  height: 3.6rem;
+  width: 90%;
+  border-radius: 0.7rem;
+  color: var(--desaturated-blue);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.cancel-payment:hover {
+  color: var(--dark-blue);
+}
+/*# sourceMappingURL=styles.css.map */
